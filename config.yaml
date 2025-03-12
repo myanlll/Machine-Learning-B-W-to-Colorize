@@ -1,0 +1,19 @@
+project:
+  name: colorize-photos-v2
+  description: Black and white photo colorization using U-Net
+
+paths:
+  data:
+    train_dir: data/processed_train
+    val_dir: data/processed_val
+    user_input_dir: input_user
+    output_dir: output
+  model:
+    model_path: models/generator.pth
+
+model:
+  unet:
+    input_size: 512
+  training:
+    batch_size: 48
+    num_epochs: 25
