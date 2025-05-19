@@ -119,7 +119,7 @@ This is a basic example of image colorization with machine learning. You can imp
 # Colorize-Photos-V2 - Siyah-Beyaz Fotoğrafları Renklendiren Makine Öğrenmesi
 
 
-Selamlar agalar! Bugün sizlere "Colorize-Photos-V2" projemi anlatacağım. Tabii V2 olmasının sebebi, bunun bir de V1’i oluşu. Eğer sonuçları görüp "Bu ne ya, hiç olmadı" derseniz, V1’i sakın görmeyin, o daha boktan, benden söylemesi :D Hadi gelin, projeyi baştan sona masaya yatıralım, her detayıyla anlatayım, ne dersiniz?
+Selamlar agalar! Bugün sizlere "Colorize-Photos-V2" projemi anlatacağım. Tabii V2 olmasının sebebi, bunun bir de V1’i oluşu. Eğer sonuçları görüp "Bu ne ya, hiç olmadı" derseniz, V1’i sakın görmeyin, o daha b**tan, benden söylemesi :D Hadi gelin, projeyi baştan sona masaya yatıralım, her detayıyla anlatayım, ne dersiniz?
 
 Şimdi her şeyiyle her detayıyla anlatayım projemi. Dataset olarak COCO Train 2017’yi kullandık, belki ondandır, belki de benim sistemimin yetersizliği yüzünden, sadece 3. epoch sonucuyla modelimizi kullanabildik. Ben ve gariban laptopum elimizden gelenin fazlasını yaptık, optimize etmek için uğraştım didindim. Eğer siz de bu projeyi denemek isterseniz, `train_2017` klasörünün içine büyük çapta (ben 118k fotoğraf kullandım) fotoğraflarınızı koyarak pekala adım adım kendi modelinizi eğitip bu projeyi kullanabilirsiniz. Bayağı keyifli bir iş, deneyin derim.
 
